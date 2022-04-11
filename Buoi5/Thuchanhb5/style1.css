@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto";
+}
+.contenta {
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 15%);
+    border-radius: 7px;
+    overflow: hidden;
+    padding: 20px;
+}
+.title {
+    color: #464646;
+    font-size: 19px;
+    margin-bottom: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.description {
+    color: rgb(70, 70, 70);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    padding: 20px;
+}
+.ranting a{
+    display:inline-block;
+    border:1px solid #73AD21;
+    background-color:#73AD21;
+    padding:10px 12px;
+    box-shadow:2px 2px 5px #6c6969;
+    text-decoration:none;
+    border-radius:3px;
+    color:white;
+}
+ranting a:hover{
+    border:1px solid #90d331;
+    background-color:#90d331;
+}
+rangting a:active{
+    border:1px solid #669f15;
+    background-color:#669f15;
+}
+.Techmastter {
+    width: 100%;
+    background: bisque;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center; 
+    margin: auto;
+    margin: 0px 0px 8px 0;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 15%);
+    border-radius: 7px;
+    overflow: hidden;
+    background-color: #464646; 
+}
+.Websai {
+    width: 90%;
+    margin: auto;
+    margin: 0px 0px 8px 0;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 15%);
+    border-radius: 7px;
+    overflow: hidden;
+    background-color: #464646;
+    padding: 0px 15px 0px 15px;
+    display: flex;
+}
+.content {
+    width: 25%;
+    display: flex;
+    color: rgb(145, 146, 148);
+    width: 297px;
+    display: block;
+    margin: 0 auto;  
+    padding: 0px 8px 0px 8px;
+}
+.none {display: flex;
+        
+}
+.tieude {
+    color: rgb(255, 255, 255);
+    width: 297px;
+    margin: 0px 0px 8px 0px;
+    display: block; 
+    font-size: 18px;
+    font-weight: 500;
+}
+h2{border: auto;
+    padding: 20px 0;
+}
+a{
+    border: auto;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(145, 146, 148);
+    text-decoration: none;
+    margin-bottom: 8px;  
+}
+li{
+    font-size: 16px;
+    font-weight: 400;
+    text color: rgb(145, 146, 148);
+    margin: 5px;
+
+}
+p{
+    padding: 5px 0;
+}
+.icon{
+    font-size: 25;
+    margin: 8px ;
+}
+.icon1{
+    font-size: 25;
+    margin: 8px ;
+    color: red;
+}
+/* Bo xung cho noi dung 2 */
+.phan2{   
+     max-width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    border-radius: 7px;
+    overflow: hidden;
+    padding: 20px;
+    justify-content: flex-start;
+}
+.phan21{
+    padding: 20px;
+}
+img15 {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+/* phan3 */
+
+.phan3{
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    border-radius: 7px;
+}
+.phan31{width: 40%;
+    height: auto;
+    padding: 20px;
+    justify-content: flex-start;
+    object-fit: cover;
+}
+.phan4{
+    padding: 20px;
+}
+.phan41{
+    padding: 20px;
+}
+    

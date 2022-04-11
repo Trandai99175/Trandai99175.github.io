@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.card{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+}  
+.container {
+    width: 30%;
+    display: block;
+    margin: auto;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 15%);
+    border-radius: 7px;
+    overflow: hidden;
+    justify-content: space-between;
+    object-fit: cover
+  
+   
+}
+img {
+    max-width: 100%;
+    height: 373px;
+    display: block;
+    margin: auto;
+    object-fit: cover;
+}
+
+.item { 
+    max-width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    align-self: start;
+    flex-wrap: wrap;
+    font-size: 16px;
+    margin: 20px 20px 20px 20px;
+    font-weight: 400;
+}
+.item1{     
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    align-self: start;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 16px;
+    font-weight: 400;
+}
+.item3{ justify-content: space-between;
+    align-content;
+
+}
+.one{
+    font-size: 19px;
+}
+.fa-solid{
+    color: yellow;
+}
+
+.Techmastter {
+    width: 100%;
+    background: bisque;
+    /* mac dinh theo cot */
+    display: flex;
+    /* xet theo truc doc- xac dinh chie */
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* can chinh hang item */
+    align-content: center; 
+    margin: auto;
+    margin: 0px 0px 8px 0;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 15%);
+    border-radius: 7px;
+    overflow: hidden;
+    background-color: #464646;
+   
+}
+.Websai {
+    width: 90%;
+    margin: auto;
+    margin: 0px 0px 8px 0;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 15%);
+    border-radius: 7px;
+    overflow: hidden;
+    background-color: #464646;
+    padding: 0px 15px 0px 15px;
+    display: flex;
+
+}
+.content {
+    width: 25%;
+    display: flex;
+    color: rgb(145, 146, 148);
+    width: 297px;
+    display: block;
+    margin: 0 auto;  
+    padding: 0px 8px 0px 8px;
+}
+.none {display: flex;
+        
+}
+.tieude {
+    color: rgb(255, 255, 255);
+    width: 297px;
+    margin: 0px 0px 8px 0px;
+    display: block;
+    
+    font-size: 18px;
+    font-weight: 500;
+}
+a{
+    border: auto;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(145, 146, 148);
+    text-decoration: none;
+    margin-bottom: 8px;  
+}
+li{
+    font-size: 16px;
+    font-weight: 500;
+    text color: rgb(145, 146, 148);
+    margin: 8px;
+
+}
+.icon{
+    font-size: 25;
+    margin: 8px ;
+}

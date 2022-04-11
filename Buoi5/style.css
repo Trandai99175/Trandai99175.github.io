@@ -1,0 +1,36 @@
+* {margin: 0;
+padding: 0;
+box-sizing: border-box;}
+.container{
+    height: 600px;
+    background: bisque;
+    /* mac dinh theo cot */
+    display: flex;
+    /* xet theo truc doc- xac dinh chie */
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* can chinh hang item */
+    align-content: center;
+}
+.item{
+    color: rgb(70, 70, 70);
+    font-size: 2rem;
+    border: 1px solid;
+    line-height: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-self: start;
+.item1{
+
+}
+    
+.item-1{
+    flex-basis: 300px;
+    /* thứ tự đứng trong hàng hoặc cột */
+    order: 4;
+}
+.item-3{
+    order: 5;
+}
