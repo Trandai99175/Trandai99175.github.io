@@ -39,7 +39,6 @@ img{
 .name{
     width: 100%;
     position: absolute;
-    background-color: white;
     color: rgb(110, 9, 225); 
     transition: all 1s;  
     bottom: 0%;
