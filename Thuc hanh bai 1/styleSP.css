@@ -186,14 +186,14 @@ img{
 }
 
 
-button{
-    0 20px;
+button{ 
+    padding:  0 0px;
 }
 
-a{
+a{ color: black;
     text-decoration:none;
 }
-p{padding: 10px 0;
+p{padding: 5px 0;
 
 
 }
@@ -206,7 +206,7 @@ h3{
     color: black;
 
 }
-i{padding: 10px 0;}
+i{padding: 5px 0;}
 .footer1{
     max-width: 100%;
     background-color: white;
